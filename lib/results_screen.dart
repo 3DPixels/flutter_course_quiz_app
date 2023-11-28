@@ -18,8 +18,6 @@ class ResultsScreen extends StatelessWidget {
     //as we said before you can add to a final list
     for (var i = 0; i < questions.length; i++) {
       //we use curly braces in add to add a map
-      print(questions[i].text);
-      print(questions[i].answers[0]);
       summary.add({
         'question_index': i,
         'question': questions[i].text,
