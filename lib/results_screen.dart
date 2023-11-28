@@ -12,7 +12,6 @@ class ResultsScreen extends StatelessWidget {
 
   //map value type is object because it has different types
   List<Map<String, Object>> getSummaryData() {
-    print('called');
     final List<Map<String, Object>> summary = [];
 
     //as we said before you can add to a final list
